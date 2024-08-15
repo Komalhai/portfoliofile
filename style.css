@@ -1,0 +1,103 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+}
+
+body {
+     background: #080808;
+     color: #fff;
+}
+
+#header {
+     height: 100vh;
+     width: 100%;
+     /* background-image:url(photo-1634761980588-d889639b2913.jpeg) ; 
+     background-size: cover;
+     background-position: center; */
+}
+
+#logotext {
+     font-size: 50px;
+     font-weight: 600;
+     font-family: sans-serif;
+     color: #ff004f;
+
+}
+
+.container {
+     padding: 10px 100px;
+}
+
+nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+nav ul li {
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+}
+
+nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 22px;
+     position: relative;
+}
+
+nav ul li a::after {
+     content: '';
+     width: 0;
+     height: 5px;
+     background: #ff004f;
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     transition: 0.5s;
+
+}
+
+nav ul li a:hover::after {
+     width: 100%;
+}
+
+.header-text {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     font-size: 25px;
+     padding-top: 10px;
+}
+
+.header-text h1 {
+     font-size: 60px;
+     margin-top: 15px;
+
+}
+
+.header-text h1 span{
+     color: #ff004f;
+}
+
+
+.header-text-1 img {
+     height: 500px;
+     width: 500px;
+
+}
+/* =======================About==================== */
+#about{
+     padding: 80 0;
+     color: #ababab;
+}
+.sub-tittle{
+     text-align: center;
+     font-size: 40px;
+     color: #fff;
+     
+ 
+}
